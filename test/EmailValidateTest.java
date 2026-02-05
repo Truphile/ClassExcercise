@@ -11,5 +11,11 @@ public class EmailValidateTest {
         assertTrue(EmailValiade.isValidateEmail(myEmailCheck));
     }
 
+    @Test
+    public void testEmailValidate2() {
+        String myEmailCheck = "o.oladeji@semicolon.africa";
+        assertTrue(EmailValiade.isValidateEmail(myEmailCheck));
+    }
+
 
 }
