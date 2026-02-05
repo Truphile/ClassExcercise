@@ -9,4 +9,10 @@ public class RegexTest {
         String midePhoneNumber = "07013456789";
         assertTrue(RegexProcessor.isPhoneNumberValid(midePhoneNumber));
     }
+
+    @Test
+    public void testNewNumberIsValid() {
+        String faridPhoneNumber = "08013666789";
+        assertTrue(RegexProcessor.isPhoneNumberValid(faridPhoneNumber));
+   }
 }
