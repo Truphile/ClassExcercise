@@ -15,4 +15,10 @@ public class RegexTest {
         String faridPhoneNumber = "08013666789";
         assertTrue(RegexProcessor.isPhoneNumberValid(faridPhoneNumber));
    }
+
+    @Test
+    public void testNewNumberRanIsValid() {
+        String creedPhoneNumber = "+23413666789";
+        assertTrue(RegexProcessor.isPhoneNumberValid(creedPhoneNumber));
+    }
 }
