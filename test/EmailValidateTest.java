@@ -24,4 +24,11 @@ public class EmailValidateTest {
     }
 
 
+    @Test
+    public void testEmailValidate4() {
+        String myEmailCheck = "o.oladej9i76@semicolon.africa";
+        assertTrue(EmailValiade.isValidateEmail(myEmailCheck));
+    }
+
+
 }
